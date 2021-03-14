@@ -34,7 +34,7 @@ def index():
 def get_name(name: str):
     return {'Welcome To PCOS Testing API': f'{name}'}
 
-@app.get('/predict')
+@app.post('/predict')
 def predict_pcos(data:PCOS):
     data = data.dict()
     age=data["Age"]
