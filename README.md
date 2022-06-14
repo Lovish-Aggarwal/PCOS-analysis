@@ -1,4 +1,4 @@
-# PCOS-analysis
+# PCOS-Analysis
 Pcos  ML model Deployment repo.
 
 API key :-
